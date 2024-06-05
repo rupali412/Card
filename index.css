@@ -1,0 +1,42 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  padding: 6px 16px;
+  background: rgb(33, 33, 53);
+  height: 32px;
+  color: white;
+  border: none;
+  font-size: large;
+  font-weight: 500;
+  margin-right: 5px;
+}
+img{
+  width: 4rem;
+  display: inline;
+  margin-left: 3px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav {
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
